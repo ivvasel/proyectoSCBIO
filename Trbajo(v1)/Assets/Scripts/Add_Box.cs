@@ -15,7 +15,7 @@ public class Add_Box : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            Invoke("ADDBox", 1f);
+            Invoke("ADDBox", 0f);
         }
     }
 
