@@ -4,6 +4,5 @@ function [exito] = sender(tcpipClient,msg)
 fopen(tcpipClient);
 fwrite(tcpipClient,msg);
 fclose(tcpipClient);
-exito = true;
 end
 

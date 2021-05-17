@@ -1,8 +1,10 @@
-function [] = prueba_RT(clasificador)
+function [YPred] = prueba_RT()
 camera = webcam; 
 preview(camera)
 frames = 200; 
 load clasificador.mat;
+% Cliente=connection;
+
 for k=1:frames
     %Acquire frame for processing
     img = snapshot(camera);
@@ -11,7 +13,12 @@ for k=1:frames
     imwrite(img,filename);
     ds = imageDatastore(filename);
     [YPred]=classify(clasificador,ds)
+    if (YPred(1,1) == "Mano_abierta")
+%         sender(Cliente,Mano_abierta);
+    1
+    end
 end 
 clear camera
 end
+
 

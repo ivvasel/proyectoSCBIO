@@ -1,4 +1,4 @@
-function [exito,tcpipClient] = connection()
+function [tcpipClient] = connection()
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 tcpipClient = tcpip('127.0.0.1',55001,'NetworkRole','Client');
@@ -7,6 +7,5 @@ fopen(tcpipClient);
 a='Conexion realizada';
 fwrite(tcpipClient,a);
 fclose(tcpipClient);
-exito = true;
 end
 
