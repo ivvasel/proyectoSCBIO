@@ -2,7 +2,7 @@ function [] = prueba_RT(clasificador)
 camera = webcam; 
 preview(camera)
 frames = 200; 
-load(clasificador);
+load clasificador.mat;
 for k=1:frames
     %Acquire frame for processing
     img = snapshot(camera);
