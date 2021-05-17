@@ -3,7 +3,7 @@ camera = webcam;
 preview(camera)
 frames = 200; 
 load clasificador.mat;
-% Cliente=connection;
+Cliente=connection;
 
 for k=1:frames
     %Acquire frame for processing
@@ -14,8 +14,7 @@ for k=1:frames
     ds = imageDatastore(filename);
     [YPred]=classify(clasificador,ds)
     if (YPred(1,1) == "Mano_abierta")
-%         sender(Cliente,Mano_abierta);
-    1
+         sender(Cliente,"Mano_abierta");
     end
 end 
 clear camera

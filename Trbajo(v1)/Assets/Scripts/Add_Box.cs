@@ -25,8 +25,9 @@ public class Add_Box : MonoBehaviour
    
     void Update()
     {   
-        Listening();
-        if (Input.GetMouseButtonDown(0))
+        String msg=Listening();
+
+        if (msg== "Mano_abierta")
         {
             Invoke("ADDBox", 0f);
         }
@@ -43,9 +44,9 @@ public class Add_Box : MonoBehaviour
         print ("is listening");
     }
     
-    void Listening(){
+    public String Listening(){
           if (!listener.Pending ())
-          {
+          {return "Nothing";
           } 
             else {
               print ("socket comes");
@@ -54,6 +55,7 @@ public class Add_Box : MonoBehaviour
               StreamReader reader = new StreamReader (ns);
               msg = reader.ReadToEnd();
               print (msg);
+              return msg;
             }
     }
 
