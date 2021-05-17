@@ -1,18 +1,31 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+//Para la conexión 
+using UnityEngine;
+using System.Net;
+using System.Net.Sockets;
+using System.Linq;
+using System;
+using System.IO;
+using System.Text;
 
 public class Add_Box : MonoBehaviour
 {
+    //Inicializar conexión
+    TcpListener listener;
+    String msg;
 
     public GameObject Box;
     void Start()
     {
+        Connection();
         ADDBox();
     }
    
     void Update()
-    {
+    {   
+        Listening();
         if (Input.GetMouseButtonDown(0))
         {
             Invoke("ADDBox", 0f);
@@ -24,5 +37,24 @@ public class Add_Box : MonoBehaviour
         Instantiate(Box, transform.position, transform.rotation);
     }
 
+    void Connection(){
+        listener=new TcpListener (55001);
+        listener.Start ();
+        print ("is listening");
+    }
+    
+    void Listening(){
+          if (!listener.Pending ())
+          {
+          } 
+            else {
+              print ("socket comes");
+              TcpClient client = listener.AcceptTcpClient ();
+              NetworkStream ns = client.GetStream ();
+              StreamReader reader = new StreamReader (ns);
+              msg = reader.ReadToEnd();
+              print (msg);
+            }
+    }
 
 }
