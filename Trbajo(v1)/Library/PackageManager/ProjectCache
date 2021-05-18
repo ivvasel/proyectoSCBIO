@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637568810210927862
-    m_Hash: 3119708035
+      ticks: 637563444100000000
+    m_Hash: 2053551833
   m_LockFileStatus:
     m_FilePath: D:/Escritorio/Telecomunicaciones/4/proyectoSCBIO/Trbajo(v1)/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637568810210927862
-    m_Hash: 4025997024
+      ticks: 637563445240000000
+    m_Hash: 2154220959
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:

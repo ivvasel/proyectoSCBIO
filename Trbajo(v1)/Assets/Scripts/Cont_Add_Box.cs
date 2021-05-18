@@ -18,6 +18,6 @@ public class Cont_Add_Box : MonoBehaviour
     }
 
     void PosY() { 
-         transform.position = new Vector2(transform.position.x, transform.position.y + 1.0f);
+         transform.position = new Vector2(transform.position.x, transform.position.y + 2.0f);
     }
 }
