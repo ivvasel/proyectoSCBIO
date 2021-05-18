@@ -1,10 +1,15 @@
 function [soltada] = controles_partida(tcpipClient,YPred,soltada)
 %Funcion encargada de enviar a Unity el mensaje adecuado
-if (soltada == false) 
+ 
 switch (YPred(1,1))
      case "Mano_abierta"
-        msg = "Mano_abierta";
-        soltada = true;
+        
+        if (soltada == false)
+            msg = "Mano_abierta";
+            soltada = true;
+        else
+            msg = "Cierre la mano";
+        end
 
      case "Mano_cerrada"
         msg = "Mano_cerrada";
@@ -12,10 +17,8 @@ switch (YPred(1,1))
      
      case "No_mano"
         msg = "No_mano";
-        soltada = false;
+        soltada = false; 
 end
- 
- sender(tcpipClient,msg);
-end
+sender(tcpipClient,msg);
 end
 
