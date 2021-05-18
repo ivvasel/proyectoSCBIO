@@ -15,9 +15,12 @@ for k=1:frames
     imwrite(img,filename);
     ds = imageDatastore(filename);
     [YPred]=classify(clasificador,ds)
-    %Función de controles 
-    soltada=controles_partida(Cliente,YPred,soltada);
     
+    if (soltada == true)
+        
+    
+    %Función de controles 
+    soltada=controles_partida(Cliente,YPred);
 end 
 clear camera
 end
