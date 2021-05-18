@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Cont_Add_Box : MonoBehaviour
 {
-   
+    bool soltar = false;
+    string msg = "";
+    public Matlab matlab;
     void Start()
     {
         
@@ -12,7 +14,10 @@ public class Cont_Add_Box : MonoBehaviour
    
     void Update()
     {
-        if(Input.GetMouseButtonDown(0)){
+        msg= matlab.msg;
+        soltar = matlab.soltar;
+        if (soltar)
+        {
             Invoke("PosY", 0.6f);
         }
     }

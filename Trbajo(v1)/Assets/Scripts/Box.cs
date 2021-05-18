@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class Box : MonoBehaviour
 {
+    bool soltar = false;
+    string msg = "";
+    public Matlab matlab;
     void Start()
     {
         transform.SetParent(GameObject.FindGameObjectWithTag("Add_Box").transform);
@@ -11,9 +14,11 @@ public class Box : MonoBehaviour
         transform.position = GameObject.FindGameObjectWithTag("Add_Box").transform.position;
     }
     
-    void Update()
+    public void Update()
     {
-        if (Input.GetMouseButtonDown(0)) 
+        msg= matlab.msg;
+        soltar = matlab.soltar;
+        if (soltar)
         {
             transform.parent = null;
             GetComponent<Rigidbody2D>().gravityScale = 1;
