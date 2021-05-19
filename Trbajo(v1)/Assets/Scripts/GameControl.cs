@@ -7,8 +7,9 @@ using UnityEngine.UI;
 public class GameControl : MonoBehaviour
 {
 
-    public int Score;
+    public int Score, HighScore;
     public Text TXTBoxCount;
+    public Text TXTHighScore;
 
     void Start()
     {
@@ -17,8 +18,17 @@ public class GameControl : MonoBehaviour
    
     void Update()
     {
-        Score = GameObject.FindGameObjectsWithTag("Box").Length;
+        Score = GameObject.FindGameObjectsWithTag("Box").Length - 1;
+        HighScore = PlayerPrefs.GetInt("highscore", HighScore);
         TXTBoxCount.text = Score.ToString();
+        TXTHighScore.text = "Best: " + HighScore.ToString();
+
+        if (Score > HighScore)
+        {
+            HighScore = Score;
+            PlayerPrefs.SetInt("highscore", HighScore);
+            PlayerPrefs.Save();
+        }
     }
 
     public void BTN_ResteGame() {

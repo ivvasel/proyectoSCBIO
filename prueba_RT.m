@@ -7,7 +7,7 @@ load clasificador.mat;
 Cliente=connection;
 soltada = false;
 
-for k=1:frames
+while(true)
     %Acquire frame for processing
     img = snapshot(camera);
     img = imresize(img,[227 227]);
@@ -20,6 +20,7 @@ for k=1:frames
     
 end 
 clear camera
+
 end
 
 
