@@ -1,4 +1,5 @@
 function [YPred] = prueba_RT()
+% system('Tower/Trbajo(v1).exe');
 camera = webcam; 
 preview(camera)
 frames = 200; 
@@ -8,13 +9,14 @@ Cliente=connection;
 soltada = false;
 
 while(true)
+   
     %Acquire frame for processing
     img = snapshot(camera);
     img = imresize(img,[227 227]);
-    filename = 'video.jpg';
-    imwrite(img,filename);
-    ds = imageDatastore(filename);
-    [YPred]=classify(clasificador,ds)
+%     filename = 'video.jpg';
+%     imwrite(img,filename);
+%     ds = imageDatastore(filename);
+    [YPred]=classify(clasificador,img)
     %Función de controles 
     soltada=controles_partida(Cliente,YPred,soltada);
     
