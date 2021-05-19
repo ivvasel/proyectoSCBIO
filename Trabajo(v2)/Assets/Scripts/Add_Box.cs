@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Add_Box : MonoBehaviour
 {
-    bool soltar = false;
+    bool soltar,next;
     string msg = "";
     public Matlab matlab;
     public GameObject Box;
@@ -20,7 +20,8 @@ public class Add_Box : MonoBehaviour
     {   
         msg= matlab.msg;
         soltar = matlab.soltar;
-        if (soltar || Input.GetMouseButtonDown(0))
+        next = matlab.next;
+        if (soltar || Input.GetMouseButtonDown(0) && next)
         //if (Input.GetMouseButtonDown(0))
         {            
             Debug.Log("Suelta CAJA");

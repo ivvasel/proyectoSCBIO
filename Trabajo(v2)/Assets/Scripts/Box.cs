@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Box : MonoBehaviour
 {
-    bool soltar ;
+    bool soltar, next;
     public Matlab matlab; 
     void Start()
     {        
@@ -16,6 +16,7 @@ public class Box : MonoBehaviour
     public void Update()
     {   matlab= GameObject.Find("Matlab").GetComponent<Matlab>();
         soltar = matlab.soltar;
+        next = matlab.next;
         Debug.Log("Soltar: "+soltar);
         if (soltar || Input.GetMouseButtonDown(0))
         //if (Input.GetMouseButtonDown(0))

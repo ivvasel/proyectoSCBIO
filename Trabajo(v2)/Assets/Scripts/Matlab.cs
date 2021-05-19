@@ -13,7 +13,9 @@ public class Matlab : MonoBehaviour
     TcpListener listener;
     public bool soltar=false;
     public string msg = "";
+    public bool next;
     void Start(){
+      next = true;
       listener=new TcpListener (55001);
       listener.Start ();
       print ("is listening");
