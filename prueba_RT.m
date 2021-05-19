@@ -1,6 +1,6 @@
 function [YPred] = prueba_RT()
-% system("Tower/Trbajo(v1).exe &");
-% pause(5)
+system("Tower/Trbajo(v1).exe &");
+pause(5)
 camera = webcam; 
 preview(camera)
 frames = 200; 
