@@ -5,6 +5,7 @@ switch (YPred(1,1))
         if (soltada == false)
             msg = "Mano_abierta";
             soltada = true;
+             pause(1);
         else
             msg = "Cierre la mano";
         end
