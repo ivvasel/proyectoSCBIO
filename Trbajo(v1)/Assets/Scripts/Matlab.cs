@@ -20,10 +20,10 @@ public class Matlab : MonoBehaviour
     }
     
     void Update(){
-      print("Veces ejecutado Cliente");
+      Debug.Log("Veces ejecutado Cliente");
       if (!listener.Pending ())
           {
-            print("Prueba");
+            Debug.Log("Sin entrada");
             soltar = false;
             msg = "";
           } 

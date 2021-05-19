@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//Para la conexión 
 
 public class Add_Box : MonoBehaviour
 {
@@ -22,9 +21,10 @@ public class Add_Box : MonoBehaviour
         msg= matlab.msg;
         soltar = matlab.soltar;
         if (soltar)
+        //if (Input.GetMouseButtonDown(0))
         {            
-            print("Suelta CAJA");
-            Invoke("ADDBox", 0f);
+            Debug.Log("Suelta CAJA");
+            Invoke("ADDBox", 1f);
         }
     }
 
