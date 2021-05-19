@@ -23,6 +23,9 @@ public class Matlab : MonoBehaviour
       print("Veces ejecutado Cliente");
       if (!listener.Pending ())
           {
+            print("Prueba");
+            soltar = false;
+            msg = "";
           } 
             else {
               print ("socket comes");
@@ -47,9 +50,7 @@ public class Matlab : MonoBehaviour
                   default: 
                       soltar = false;
                       break;
-
               }
-
               print (msg);
             }
     }

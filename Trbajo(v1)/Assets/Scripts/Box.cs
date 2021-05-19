@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class Box : MonoBehaviour
 {
-    bool soltar = false;
-    string msg = "";
-    public Matlab matlab;
+    public bool soltar = false;
+    public Matlab matlabobj; 
     void Start()
     {
         transform.SetParent(GameObject.FindGameObjectWithTag("Add_Box").transform);
@@ -16,8 +15,10 @@ public class Box : MonoBehaviour
     
     public void Update()
     {
-        msg= matlab.msg;
-        soltar = matlab.soltar;
+        
+        //Matlab variable = GetComponent<Matlab>();
+        soltar= matlabobj.soltar;
+
         if (soltar)
         {
             transform.parent = null;
