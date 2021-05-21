@@ -1,6 +1,7 @@
 function [YPred] = prueba_RT()
 camera = webcam; 
 system("Tower_v3/Trbajo(v1).exe &");
+pause(2);
 %preview(camera)
 %frames = 200; 
 load clasificador.mat;

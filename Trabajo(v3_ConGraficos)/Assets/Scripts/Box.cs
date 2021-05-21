@@ -18,7 +18,7 @@ public class Box : MonoBehaviour
         soltar = matlab.soltar;
         next = matlab.next;
         Debug.Log("Soltar: "+soltar);
-        if (soltar || Input.GetMouseButtonDown(0))
+        if (next && soltar || Input.GetMouseButtonDown(0))
         //if (Input.GetMouseButtonDown(0))
         {
             transform.parent = null;

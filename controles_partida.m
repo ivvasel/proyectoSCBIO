@@ -17,8 +17,6 @@ switch (YPred(1,1))
         msg = "No_mano";
         soltada = false; 
 end
-if(YPred_anterior~=YPred(1,1))
     sender(tcpipClient,msg);
-end
 end
 

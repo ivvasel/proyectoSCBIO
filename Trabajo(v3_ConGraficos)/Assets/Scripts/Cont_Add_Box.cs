@@ -17,12 +17,11 @@ public class Cont_Add_Box : MonoBehaviour
         msg= matlab.msg;
         soltar = matlab.soltar;
         next = matlab.next;
+        Debug.Log("Condicion de subida de cama:"+(!next && soltar));
         Debug.Log("Subir: "+soltar);
-        if (soltar || Input.GetMouseButtonDown(0) && next)
+        if (next && soltar || Input.GetMouseButtonDown(0))
         {
             Invoke("PosY", 0.4f);
-            matlab.next = false;
-            Invoke("Next",1.2f);
 
         }
     }
@@ -30,7 +29,5 @@ public class Cont_Add_Box : MonoBehaviour
     void PosY() { 
          transform.position = new Vector2(transform.position.x, transform.position.y + 1.8f);
     }
-    void Next () {
-        matlab.next=true;
-    }
+
 }

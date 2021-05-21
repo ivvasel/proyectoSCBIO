@@ -21,17 +21,22 @@ public class Add_Box : MonoBehaviour
         msg= matlab.msg;
         soltar = matlab.soltar;
         next = matlab.next;
-        if (soltar || Input.GetMouseButtonDown(0) && next)
+        if (next && soltar || Input.GetMouseButtonDown(0))
         //if (Input.GetMouseButtonDown(0))
         {            
             Debug.Log("Suelta CAJA");
             Invoke("ADDBox", 1f);
+            matlab.next = false;
+            Invoke("Next", 1f);
         }
     }
 
     void ADDBox() 
     {
         Instantiate(Box, transform.position, transform.rotation);
+    }
+        void Next () {
+        matlab.next=true;
     }
 
 }

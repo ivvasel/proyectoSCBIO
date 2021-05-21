@@ -38,22 +38,21 @@ public class Matlab : MonoBehaviour
               switch(msg)
               {
                   case "Mano_abierta":
-                  soltar = true;
+                    soltar = true;                  
                   break;
 
                   case "Mano_cerrada":
-                  soltar = false;
+                    soltar = false;
                   break;
 
                   case "No_mano":
-                  soltar = false;
+                    soltar = false;
                   break;
                   
                   default: 
-                      soltar = false;
-                      break;
-              }
+                    soltar = false;
+                  break;
+              }              
               print (msg);
             }
-    }
-}
+}}
