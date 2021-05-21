@@ -22,6 +22,10 @@ public class GameControl : MonoBehaviour
         HighScore = PlayerPrefs.GetInt("highscore", HighScore);
         TXTBoxCount.text = Score.ToString();
         TXTHighScore.text = "Best: " + HighScore.ToString();
+        
+        if (Input.GetKey("escape")){
+            Application.Quit();
+        }
 
         if (Score > HighScore)
         {
@@ -36,4 +40,5 @@ public class GameControl : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
 }
