@@ -26,15 +26,11 @@ function []=ejecucion(camera,archivo)
 load(archivo); % Carga la red neuronal entrenada
 Cliente=connection; %Establece la conexion con el servidor Unity
 soltada = false;% No se ha soltado la caja todavia
-i=0; % Inicializa el contador
 while(true)
-    i=i+1; % aumenta en 1 el contador
     img = snapshot(camera); % Realiza una captura de pantalla
     img = imresize(img,[227 227]); % Reescala la imagen para adecuarla al formato de la red entrenada
-    if(mod(i,3)~=0) % Descarta un tercio de las capturas hechas para adecuar la velocidad de captura
-        [YPred]=classify(clasificador,img); % Realiza la clasificación de la imagen recibida
-        soltada=controles_partida(Cliente,YPred,soltada); %Función de controles 
-    end
+    [YPred]=classify(clasificador,img); % Realiza la clasificación de la imagen recibida
+    soltada=controles_partida(Cliente,YPred,soltada); %Función de controles 
 end 
 end
 
