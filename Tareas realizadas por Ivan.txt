@@ -1,0 +1,12 @@
+Para Andrés:
+    - Investigar sobre la conexión entre Matlab y Unity, mientras Roberto le daba forma a una primera version alpha del diseño (2/3 días)
+    - Crear funciones para la conexión TCP en Matlab y su respectivas funciones en Unity. (2/3 dias)
+    - Una vez obtenida la version beta del juego, con todas sus funcionalidades aplicadas intentar adaptar la conectividad (3/4 dias)
+        - Surguieron problemas de conectividad y la creacion de objetos en Unity que tuvimos que solventar.
+    - Solución de errores en la jugabilidad: (3/4 dias)
+        - Salian cajas cuando no queriamos.
+        - Se duplicaban las cajas antes de caer, debido a la velocidad de comunicacion TCP 
+        - Debido a esta velocidad tuvimos que crear una variable para hacer esperar al juego una cantidad de tiempo especifica.
+        - Intentamos solucionar todos estos erroes tanto en Matlab como en Unity pero al final la solución residia en Unity.
+    - Añadir boton de Exit al juego y automatizar el cierre de matlab cuando se cierra el juego o se podruce algún error en la conexion con Unity. (1 día)
+    - Intento de estructuración de los directorios
