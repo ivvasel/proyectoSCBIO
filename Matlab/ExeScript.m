@@ -1,7 +1,10 @@
+%% Este Script permite ejecutar el juego en Unity
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Inicialización de la camára y el juego%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc
+clear all
 camera=inicializar("../AstroBox_v1/AstroBox.exe &");
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -10,13 +13,15 @@ camera=inicializar("../AstroBox_v1/AstroBox.exe &");
 ejecucion(camera,'clasificador.mat');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Cierre del programa%
+%Fin de la ejecución%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clear all
 
-%%%%%%%%%%%%%%%%%
-%Funciones%
-%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Funciones del Script%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 function [camera]=inicializar(ruta)
     camera = webcam; % Llamada a la webcam
     system(ruta); % Ejecucion del juego
@@ -27,7 +32,7 @@ function []=ejecucion(camera,archivo)
 load(archivo); % Carga la red neuronal entrenada
 [Cliente,cerrado]=connection; %Establece la conexion con el servidor Unity
 soltada = false;% No se ha soltado la caja todavia
-while(cerrado == false)
+while(cerrado == false) % Mientras no se cierre el juego
     img = snapshot(camera); % Realiza una captura de pantalla
     img = imresize(img,[227 227]); % Reescala la imagen para adecuarla al formato de la red entrenada
     [YPred]=classify(clasificador,img); % Realiza la clasificación de la imagen recibida
@@ -74,7 +79,7 @@ cerrado = sender(tcpipClient,msg); % Se realiza la conexion TCP con Unity
 end
 
 function [cerrado] = sender(tcpipClient,msg)
-% Funcion que erealiza la conexion entre MATLAB y Unity mediante TCP
+% Funcion que realiza la conexion entre MATLAB y Unity mediante TCP
 cerrado = false;
 
 try

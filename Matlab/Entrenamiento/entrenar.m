@@ -1,8 +1,8 @@
 function [] = entrenar(ruta)
-%% ESta función permite entrenar la red neuronal
+%% Esta función permite entrenar la red neuronal
 
-net=squeezenet; % Elección d ela red neuronal preentrenada
-lgraph=layerGraph(net); % Muetsra de las capas de la red
+net=squeezenet; % Elección de la red neuronal preentrenada
+lgraph=layerGraph(net); % Muestra de las capas de la red
 
 % Sustitución de la capa que decide el número de salidas
 ConvLayer = convolution2dLayer([1, 1],3,'WeightLearnRateFactor',10,'BiasLearnRateFactor',10,"Name",'conv10');

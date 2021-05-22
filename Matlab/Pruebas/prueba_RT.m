@@ -1,4 +1,5 @@
 function [YPred] = prueba_RT()
+%% Esta función permite realizar pruebas en tiempo real sobre el juego
 camera = webcam; 
 system("Tower_v3/Trbajo(v1).exe &");
 pause(2);

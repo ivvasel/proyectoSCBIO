@@ -1,3 +1,4 @@
+%% Este Script permite crear bases de datos etiquetadas de forma eficiente para entrenar al clasificador. También sirve para probar y validar su funcionamoiento. 
 clc
 clear all;
 w=webcam;
