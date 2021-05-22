@@ -2,7 +2,7 @@
 %Inicialización de la camára y el juego%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 clc
-camera=inicializar("AstroBox_v1/AstroBox.exe &");
+camera=inicializar("AstroBox_v2/AstroBox.exe &");
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Ejecución del videojuego y la red neuronal%
