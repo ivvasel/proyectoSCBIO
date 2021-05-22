@@ -8,6 +8,7 @@ public class Add_Box : MonoBehaviour
     string msg = "";
     public Matlab matlab;
     public GameObject Box;
+    public GameObject SonidoCaja;
     
 
     void Start()
@@ -26,6 +27,7 @@ public class Add_Box : MonoBehaviour
         {            
             Debug.Log("Suelta CAJA");
             Invoke("ADDBox", 1f);
+            Invoke("Sonido",0.8f);
             matlab.next = false;
             Invoke("Next", 1f);
         }
@@ -37,6 +39,11 @@ public class Add_Box : MonoBehaviour
     }
         void Next () {
         matlab.next=true;
+        
     }
+    void Sonido(){
+        Instantiate(SonidoCaja);
+    }
+
 
 }
