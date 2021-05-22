@@ -1,6 +1,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Inicialización de la camára y el juego%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+clc
 camera=inicializar("Tower_v3/Trbajo(v1).exe &");
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -11,7 +12,7 @@ ejecucion(camera,'clasificador.mat');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Cierre del programa%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-cierre()
+clear all
 
 %%%%%%%%%%%%%%%%%
 %Funciones%
@@ -24,27 +25,33 @@ end
 
 function []=ejecucion(camera,archivo)
 load(archivo); % Carga la red neuronal entrenada
-Cliente=connection; %Establece la conexion con el servidor Unity
+[Cliente,cerrado]=connection; %Establece la conexion con el servidor Unity
 soltada = false;% No se ha soltado la caja todavia
-while(true)
+while(cerrado == false)
     img = snapshot(camera); % Realiza una captura de pantalla
     img = imresize(img,[227 227]); % Reescala la imagen para adecuarla al formato de la red entrenada
     [YPred]=classify(clasificador,img); % Realiza la clasificación de la imagen recibida
-    soltada=controles_partida(Cliente,YPred,soltada); %Función de controles 
+    [soltada,cerrado]=controles_partida(Cliente,YPred,soltada); %Función de controles 
 end 
 end
 
-function [tcpipClient] = connection()
+function [tcpipClient,error] = connection()
 % Funcion que inicializa y verifica la conexion TCP entre MATLAL y Unity
+try
 tcpipClient = tcpip('127.0.0.1',55001,'NetworkRole','Client'); % Creacion del cliente TCP
 set(tcpipClient,'Timeout',30); % Asignacion del timeout 
 fopen(tcpipClient); % Apertura de la conexion
 a='Conexion realizada'; % Mensaje de comprobacion de la conexion
 fwrite(tcpipClient,a); % Envio del mensaje
 fclose(tcpipClient); % Cierre d ela conexion
+error = false;
+catch 
+    warning("No se ha podido realizar la conexion");
+    error = true;
+end
 end
 
-function [soltada] = controles_partida(tcpipClient,YPred,soltada)
+function [soltada,cerrado] = controles_partida(tcpipClient,YPred,soltada)
 %Funcion encargada de decidir el mensaje adecuado que se enviara a Unity
 switch (YPred(1,1)) % Segun la deteccion del algoritmo
      case "Mano_abierta" % Si la mano está abierta      
@@ -63,18 +70,19 @@ switch (YPred(1,1)) % Segun la deteccion del algoritmo
         msg = "No_mano"; % Entonces se manda el mensaje de no mano a Unity
         soltada = false; % No se deja caer la caja
 end
-sender(tcpipClient,msg); % Se realiza la conexion TCP con Unity
+cerrado = sender(tcpipClient,msg); % Se realiza la conexion TCP con Unity
 end
 
-function [] = sender(tcpipClient,msg)
+function [cerrado] = sender(tcpipClient,msg)
 % Funcion que erealiza la conexion entre MATLAB y Unity mediante TCP
+cerrado = false;
+
+try
 fopen(tcpipClient); % Apertura de la conexion TCP
 fwrite(tcpipClient,msg); % Envio del mensaje
 fclose(tcpipClient); % Cierre de la conexion TCP
+catch
+    warning("Se ha perdido la conexion");
+    cerrado = true;
 end
-
-function [] = cierre()
-clc % Limpia la ventana de comandos
-clear all % Limpia el workspace
-fclose(tcpipClient) % Cierra la conexion con Unity
 end
