@@ -40,5 +40,8 @@ public class GameControl : MonoBehaviour
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    public void BTN_Exit(){
+        Application.Quit();
+    }
 
 }
