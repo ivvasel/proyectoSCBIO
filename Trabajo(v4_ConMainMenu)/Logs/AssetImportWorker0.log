@@ -15,11 +15,11 @@ D:/Escritorio/Telecomunicaciones/4/proyectoSCBIO/Trabajo(v4_ConMainMenu)
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-64632
+50597
 Successfully changed project path to: D:/Escritorio/Telecomunicaciones/4/proyectoSCBIO/Trabajo(v4_ConMainMenu)
 D:/Escritorio/Telecomunicaciones/4/proyectoSCBIO/Trabajo(v4_ConMainMenu)
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 144.33 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 38.48 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.7f1 (dd97f2c94397)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,18 +35,495 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56132
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004543 seconds.
+Registered in 0.002389 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.11 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 34.34 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.372 seconds
+- Completed reload, in  1.028 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001591 seconds.
+Registered in 0.001528 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000206F2332010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDB0DFC0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE828C20 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE093010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F3800240 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDDA9C50 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F3800240 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDDBD060 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDDBD060 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F30BD020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE209450 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE190640 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE210A60 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE210A60 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE84E480 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE210A60 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F252B020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE190640 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F26AB020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE219470 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDF172E0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F26AB020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2687C30 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDBF0130 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDB5AE20 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F31B1E30 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE190640 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F31B9840 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.92 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1816 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2260.
+Total: 2.300100 ms (FindLiveObjects: 0.231900 ms CreateObjectMapping: 0.081100 ms MarkObjects: 1.861800 ms  DeleteObjects: 0.123800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/Floor.cs
+  artifactKey: Guid(de1c2db018ed2dc43a1a48f3a5ee169f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Floor.cs using Guid(de1c2db018ed2dc43a1a48f3a5ee169f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047a73a3b1efba762cdd6d196f68e4b7') in 0.051950 seconds
+  Import took 0.054784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.514823 seconds.
+  path: Assets/Scenes/Juego.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Juego.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adce750f32a161bc8ba3317324508735') in 0.011237 seconds
+  Import took 0.014843 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001569 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000206F28B5010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDB10180 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2576B90 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDF57620 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE82B020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE451830 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE519020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4ECB010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE451830 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4B09010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE451830 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2576B90 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDDF5B50 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDEBF020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE44F430 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDECEE10 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2EB6020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2576B90 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F3756010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE827020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDF172E0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE311F00 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F31B1E30 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F52BD200 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDED4220 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE119C40 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE832630 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F375E020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.879 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2264.
+Total: 3.081000 ms (FindLiveObjects: 0.763000 ms CreateObjectMapping: 0.183400 ms MarkObjects: 2.024500 ms  DeleteObjects: 0.107800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002507 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000206F28B5010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDB10180 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2576B90 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2E3C990 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE451830 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE451830 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE519020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE451830 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE451830 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4B09010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F25E0020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2576B90 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE459840 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE459840 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F54B0370 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4C87A30 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4606020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2576B90 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE108030 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206C67061D0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2D79690 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F404ECF0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE110A40 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206C67032C0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDF13BC0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4450E20 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F273E820 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE203450 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.890 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2268.
+Total: 2.562700 ms (FindLiveObjects: 0.314900 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.000900 ms  DeleteObjects: 0.129800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001712 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000206F2B22010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDB09470 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F53818B0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F3A6AD70 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE82AC30 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F30EF010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE308020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE82AC30 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2E954A0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F52EE0D0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE451830 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F53818B0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F3EDF010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F46961A0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2D9D520 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE5BF700 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4606020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F53818B0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F3AB4010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE84AE60 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F29E86F0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F5838CE0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDE6B010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDBF0130 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDF13800 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F3EDF010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2B4FA20 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F30EF010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.934 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2272.
+Total: 2.325600 ms (FindLiveObjects: 0.206200 ms CreateObjectMapping: 0.076800 ms MarkObjects: 1.899300 ms  DeleteObjects: 0.142200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003345 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000206F573C020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDB09470 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F53818B0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F548D4D0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE82AC30 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F3A48010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F322F030 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE82AC30 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2E954A0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2D76510 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE451830 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F53818B0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F3EDF010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F46961A0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2D9D520 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F247A010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4606020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F53818B0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2380020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206C67061D0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4AC6020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE197C30 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F468A030 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDEAC070 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDF139E0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F3EDF010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F578D910 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2505040 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.899 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.2 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2276.
+Total: 2.733100 ms (FindLiveObjects: 0.334300 ms CreateObjectMapping: 0.126100 ms MarkObjects: 2.161200 ms  DeleteObjects: 0.109800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001803 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000206EE311F00 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDB09470 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F53818B0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EDF2DA80 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F5880030 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F30CD030 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE762030 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4D2B010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F28E7040 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F52EE0D0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F25E0020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F53818B0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4308020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2707030 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4D4DE00 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F5878D10 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F2EB6020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F53818B0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F3AB4010 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F5589040 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F29E86F0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE197C30 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F53843E0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206EE41D1D0 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F5492080 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F4308020 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F5404090 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000206F28E7040 doesn't match image D:\Escritorio\Telecomunicaciones\4\proyectoSCBIO\Trabajo(v4_ConMainMenu)\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.395 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1811 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2280.
+Total: 3.003700 ms (FindLiveObjects: 0.486400 ms CreateObjectMapping: 0.330400 ms MarkObjects: 2.058000 ms  DeleteObjects: 0.127000 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
