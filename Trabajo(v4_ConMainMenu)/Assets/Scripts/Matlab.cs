@@ -14,6 +14,11 @@ public class Matlab : MonoBehaviour
     public bool soltar=false;
     public string msg = "";
     public bool next;
+
+    void Awake(){
+      DontDestroyOnLoad(gameObject);
+    }
+
     void Start(){
       next = true;
       listener=new TcpListener (55001);
@@ -22,10 +27,8 @@ public class Matlab : MonoBehaviour
     }
     
     void Update(){
-      Debug.Log("Veces ejecutado Cliente");
       if (!listener.Pending ())
           {
-            Debug.Log("Sin entrada");
             soltar = false;
             msg = "";
           } 

@@ -9,7 +9,7 @@ public class Cont_Add_Box : MonoBehaviour
     public Matlab matlab;
     void Start()
     {
-        
+        matlab= GameObject.Find("Matlab").GetComponent<Matlab>();
     }
    
     void Update()
@@ -17,7 +17,7 @@ public class Cont_Add_Box : MonoBehaviour
         msg= matlab.msg;
         soltar = matlab.soltar;
         next = matlab.next;
-        if (next && soltar || Input.GetMouseButtonDown(0))
+        if (next && soltar)
         {
             Invoke("PosY", 0.4f);
 

@@ -12,10 +12,12 @@ public class GameControl : MonoBehaviour
     public Text TXTHighScore1;
     public Text TXTHighScore2;
     public GameObject Victoria;
+    public Matlab matlab;
 
     void Start()
     {
         Victoria.gameObject.SetActive(false);
+        matlab= GameObject.Find("Matlab").GetComponent<Matlab>();
     }
    
     void Update()
@@ -48,6 +50,7 @@ public class GameControl : MonoBehaviour
 
         Time.timeScale = 1;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        matlab.next = true;
     }
     public void BTN_Exit(){
         Application.Quit();

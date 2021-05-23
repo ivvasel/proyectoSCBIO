@@ -60,6 +60,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -67,31 +71,29 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1486}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 1762}
+      Script: {instanceID: 1764}
     - Class: 114
-      Script: {instanceID: 2074}
+      Script: {instanceID: 2076}
     - Class: 114
-      Script: {instanceID: 2130}
+      Script: {instanceID: 2132}
     - Class: 114
-      Script: {instanceID: 2152}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 2448}
+      Script: {instanceID: 2528}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2598}
     - Class: 114
-      Script: {instanceID: 2596}
+      Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2978}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 3080}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 3616}
     - Class: 114
-      Script: {instanceID: 3614}
-    - Class: 114
-      Script: {instanceID: 3810}
+      Script: {instanceID: 3812}
     - Class: 114
       Script: {instanceID: 4398}
     - Class: 115
@@ -129,22 +131,28 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1486}
+      Script: {instanceID: 1488}
     - Class: 114
-      Script: {instanceID: 2448}
+      Script: {instanceID: 2154}
     - Class: 114
-      Script: {instanceID: 2596}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2598}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 2768}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 2978}
+    - Class: 114
+      Script: {instanceID: 3080}
     - Class: 114
       Script: {instanceID: 4314}
     - Class: 115
@@ -250,7 +258,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: e8a18199afcd53947d37f98cc4efd423
+      Hash: 1911222d0039ae7e3a6e7f4484be9861
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Floor
@@ -274,7 +282,7 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 1c029832f6f19c1d0636de862690a243
+      Hash: ef2830a38a1b3a523a100222e8538248
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameControl
@@ -526,7 +534,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: fb6de1ce9b435e39b0328875e5804b66
+      Hash: bca5fbad92d44b20502b78154309a020
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Add_Box
@@ -584,12 +592,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Ajuste
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
