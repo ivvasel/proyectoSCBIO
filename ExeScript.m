@@ -19,7 +19,7 @@ clear all
 %%%%%%%%%%%%%%%%%
 function [camera]=inicializar(ruta)
     camera = webcam; % Llamada a la webcam
-    system(ruta); % Ejecucion del juego
+%     system(ruta); % Ejecucion del juego
     pause(2); % Pausa de 2 segundos mientras se inicializa el juego
 end
 

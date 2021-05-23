@@ -28,8 +28,8 @@ public class Add_Box : MonoBehaviour
             Debug.Log("Suelta CAJA");
             Invoke("ADDBox", 1f);
             Invoke("Sonido",0f);
-            Invoke("NextFalse",0.1f);
-            Invoke("NextTrue", 1f);
+            Invoke("NextFalse",0.05f);
+            Invoke("NextTrue", 1.5f);
         }
     }
 

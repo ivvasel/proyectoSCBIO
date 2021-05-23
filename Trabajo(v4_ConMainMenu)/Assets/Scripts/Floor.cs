@@ -8,6 +8,7 @@ public class Floor : MonoBehaviour
     public GameObject GameOver;
     public GameObject SonidoGeneral;
     public GameObject SonidoOver;
+    public GameObject addbox;
  
     void Start() {
         GameOver.gameObject.SetActive(false);
@@ -17,9 +18,8 @@ public class Floor : MonoBehaviour
     void OnCollisionEnter2D(Collision2D col) {
 
         if (col.gameObject.tag == "Box") {
-            //Destroy(SonidoGeneral);
             SonidoGeneral.gameObject.SetActive(false);
-            //SonidoOver.gameObject.SetActive(true);
+            addbox.gameObject.SetActive(false);
             GameOver.gameObject.SetActive(true);
             Time.timeScale = 0;
         }
