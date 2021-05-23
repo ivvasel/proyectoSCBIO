@@ -13,6 +13,7 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -70,33 +71,31 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1496}
+      Script: {instanceID: 1486}
     - Class: 114
-      Script: {instanceID: 1772}
+      Script: {instanceID: 1762}
     - Class: 114
-      Script: {instanceID: 2084}
+      Script: {instanceID: 2074}
     - Class: 114
-      Script: {instanceID: 2140}
+      Script: {instanceID: 2130}
     - Class: 114
-      Script: {instanceID: 2162}
+      Script: {instanceID: 2448}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2526}
     - Class: 114
-      Script: {instanceID: 2536}
+      Script: {instanceID: 2596}
     - Class: 114
-      Script: {instanceID: 2606}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 2986}
+      Script: {instanceID: 3078}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 3614}
     - Class: 114
-      Script: {instanceID: 3624}
+      Script: {instanceID: 3810}
     - Class: 114
-      Script: {instanceID: 3820}
-    - Class: 114
-      Script: {instanceID: 4406}
+      Script: {instanceID: 4396}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -137,19 +136,21 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1496}
+      Script: {instanceID: 1486}
     - Class: 114
-      Script: {instanceID: 2458}
+      Script: {instanceID: 2152}
     - Class: 114
-      Script: {instanceID: 2606}
+      Script: {instanceID: 2448}
     - Class: 114
-      Script: {instanceID: 2776}
+      Script: {instanceID: 2596}
     - Class: 114
-      Script: {instanceID: 2986}
+      Script: {instanceID: 2766}
     - Class: 114
-      Script: {instanceID: 3088}
+      Script: {instanceID: 2976}
     - Class: 114
-      Script: {instanceID: 4322}
+      Script: {instanceID: 3078}
+    - Class: 114
+      Script: {instanceID: 4312}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -277,7 +278,7 @@ ScriptsOnlyBuild:
     className: Text
   - hash:
       serializedVersion: 2
-      Hash: 1c029832f6f19c1d0636de862690a243
+      Hash: 1e48ea9289582afceb9b86b1227e048f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: GameControl

@@ -14,23 +14,22 @@ public class Add_Box : MonoBehaviour
     void Start()
     {
         ADDBox();
-
+        matlab= GameObject.Find("Matlab").GetComponent<Matlab>();
     }
    
     void Update()
     {   
+        
         msg= matlab.msg;
         soltar = matlab.soltar;
         next = matlab.next;
-        if (next && soltar || Input.GetMouseButtonDown(0))
-        //if (Input.GetMouseButtonDown(0))
+        if (next && soltar  /*|| Input.GetMouseButtonDown(0)*/)
         {            
             Debug.Log("Suelta CAJA");
             Invoke("ADDBox", 1f);
             Invoke("Sonido",0f);
-            //Invoke("Sonido",0.8f);
-            matlab.next = false;
-            Invoke("Next", 1f);
+            Invoke("NextFalse",0.1f);
+            Invoke("NextTrue", 1f);
         }
     }
 
@@ -38,8 +37,12 @@ public class Add_Box : MonoBehaviour
     {
         Instantiate(Box, transform.position, transform.rotation);
     }
-        void Next () {
+        void NextTrue () {
         matlab.next=true;
+        
+    }
+            void NextFalse () {
+        matlab.next=false;
         
     }
     void Sonido(){

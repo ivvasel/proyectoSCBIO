@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Box : MonoBehaviour
 {
-    bool soltar, next;
+    bool soltar, next,condicion;
     public Matlab matlab; 
     void Start()
     {        
@@ -14,12 +14,13 @@ public class Box : MonoBehaviour
     }
     
     public void Update()
+
     {   matlab= GameObject.Find("Matlab").GetComponent<Matlab>();
         soltar = matlab.soltar;
         next = matlab.next;
-        Debug.Log("Soltar: "+soltar);
-        if (next && soltar || Input.GetMouseButtonDown(0))
-        //if (Input.GetMouseButtonDown(0))
+        condicion = next && soltar;
+        Debug.Log("Gravedad: "+condicion);
+        if (next && soltar)
         {
             transform.parent = null;
             GetComponent<Rigidbody2D>().gravityScale = 1;
