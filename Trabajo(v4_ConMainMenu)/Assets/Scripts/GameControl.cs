@@ -9,11 +9,13 @@ public class GameControl : MonoBehaviour
 
     public int Score, HighScore;
     public Text TXTBoxCount;
-    public Text TXTHighScore;
+    public Text TXTHighScore1;
+    public Text TXTHighScore2;
+    public GameObject Victoria;
 
     void Start()
     {
-        
+        Victoria.gameObject.SetActive(false);
     }
    
     void Update()
@@ -21,8 +23,9 @@ public class GameControl : MonoBehaviour
         Score = GameObject.FindGameObjectsWithTag("Box").Length - 1;
         HighScore = PlayerPrefs.GetInt("highscore", HighScore);
         TXTBoxCount.text = Score.ToString();
-        TXTHighScore.text = "Best: " + HighScore.ToString();
-        
+        TXTHighScore1.text = "Récord: " + HighScore.ToString();
+        TXTHighScore2.text = "Récord: " + HighScore.ToString();
+
         if (Input.GetKey("escape")){
             Application.Quit();
         }
@@ -32,6 +35,12 @@ public class GameControl : MonoBehaviour
             HighScore = Score;
             PlayerPrefs.SetInt("highscore", HighScore);
             PlayerPrefs.Save();
+        }
+
+        if (Score == 40)
+        {
+            Victoria.gameObject.SetActive(true);
+            //Time.timeScale = 0;
         }
     }
 
