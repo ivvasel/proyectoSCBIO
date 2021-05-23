@@ -27,7 +27,8 @@ public class Add_Box : MonoBehaviour
         {            
             Debug.Log("Suelta CAJA");
             Invoke("ADDBox", 1f);
-            Invoke("Sonido",0.8f);
+            Invoke("Sonido",0f);
+            //Invoke("Sonido",0.8f);
             matlab.next = false;
             Invoke("Next", 1f);
         }
