@@ -13,7 +13,6 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
-    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.IK.Runtime.dll:
     - UnityEditor.U2D.IK.IKEditorManagerHelper
     Unity.2D.Tilemap.Editor.dll:
@@ -60,6 +59,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 91
       Script: {instanceID: 0}
     - Class: 95
@@ -67,33 +70,33 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1486}
+      Script: {instanceID: 1496}
     - Class: 114
-      Script: {instanceID: 1762}
+      Script: {instanceID: 1772}
     - Class: 114
-      Script: {instanceID: 2074}
+      Script: {instanceID: 2084}
     - Class: 114
-      Script: {instanceID: 2130}
+      Script: {instanceID: 2140}
     - Class: 114
-      Script: {instanceID: 2152}
+      Script: {instanceID: 2162}
     - Class: 114
-      Script: {instanceID: 2448}
+      Script: {instanceID: 2458}
     - Class: 114
-      Script: {instanceID: 2526}
+      Script: {instanceID: 2536}
     - Class: 114
-      Script: {instanceID: 2596}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2776}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 3088}
     - Class: 114
-      Script: {instanceID: 3614}
+      Script: {instanceID: 3624}
     - Class: 114
-      Script: {instanceID: 3810}
+      Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 4398}
+      Script: {instanceID: 4406}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -134,19 +137,19 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1486}
+      Script: {instanceID: 1496}
     - Class: 114
-      Script: {instanceID: 2448}
+      Script: {instanceID: 2458}
     - Class: 114
-      Script: {instanceID: 2596}
+      Script: {instanceID: 2606}
     - Class: 114
-      Script: {instanceID: 2766}
+      Script: {instanceID: 2776}
     - Class: 114
-      Script: {instanceID: 2976}
+      Script: {instanceID: 2986}
     - Class: 114
-      Script: {instanceID: 3078}
+      Script: {instanceID: 3088}
     - Class: 114
-      Script: {instanceID: 4314}
+      Script: {instanceID: 4322}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -250,7 +253,7 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: e8a18199afcd53947d37f98cc4efd423
+      Hash: d49a6aae255aedb8f6e63cc5a947bb90
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Floor
@@ -526,7 +529,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: fb6de1ce9b435e39b0328875e5804b66
+      Hash: bca5fbad92d44b20502b78154309a020
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Add_Box
@@ -584,12 +587,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: SignalTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Ajuste
   - hash:
       serializedVersion: 2
       Hash: aba7b2852ef61d175dd9602e7723d5e5
